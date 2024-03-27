@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul.left {
+    display: flex;
+}
+
+nav ul.left li {
+    margin-left: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.toggle-btn, .contrast-btn {
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.figura {
+    overflow: hidden;
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .figura img {
+    display: block;
+    margin: auto;
+    width: 100%;  
+  }
+.container {
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+    margin-bottom: 20px;
+    background-color: #fcafaf;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .container button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
+    background-color: #9c7dde;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .container h2 {
+    color: #333;
+  }
+  
+  /* Ocultar seções inicialmente */
+  .hidden {
+    display: none;
+  }
+
+  #transcription { white-space: pre-wrap; }
+
+  /* CSS Adicional para Layout */
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container {
+    flex-basis: calc(33.33% - 20px); /* 33.33% - margem direita */
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        flex-basis: calc(50% - 20px); /* 50% - margem direita */
+    }
+}
+.hidden {
+    display: none;
+  }
+
+  /* Estilos de contraste */
+  .high-contrast {
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  .black-and-white {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .blue-contrast {
+    background-color: #77b7fc;
+    color: #fff;
+  }
+  
+  .green-contrast {
+    background-color: #6cd484;
+    color: #fff;
+  }
+  
+  .yellow-contrast {
+    background-color: #f6dc8e;
+    color: #000;
+  }
+
+  #contrastOptions {
+    text-align: center;
+  }
+  
+  #contrastOptions button {
+    margin: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+  #startButton {
+    background-color: #9c7dde; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 14px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Sem borda */
+    border-radius: 4px; /* Borda arredondada */
+    cursor: pointer; /* Cursor ao passar */
+    transition: background-color 0.3s ease; /* Transição suave */
+  }
+  
+  #startButton:hover {
+    background-color: #45a049; /* Cor de fundo ao passar */
+  }
+  
